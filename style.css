@@ -1,0 +1,266 @@
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: 'Fira Sans Condensed', sans-serif;
+        background-color: #dedede; 
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #282265; 
+        color: #ffffff;
+        padding: 5px 40px; 
+    }
+
+    .title a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .title a:hover {
+        color: #ffd700;
+    }
+    
+    ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+
+    ul li {
+        margin: 0 15px; 
+    }
+
+    ul li a {
+        color: #ffffff;
+        text-decoration: none;
+        transition: color 0.3s ease; 
+    }
+
+    ul li a:hover {
+        color: #ffd700; 
+    }
+
+    header {
+        height: 500px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #dedede;
+        /* border: 1px solid red; */
+    }
+
+    .table-container {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        align-items: center;
+      }
+
+    table {
+        width: 80%;
+        padding: 50px;
+        border-collapse: collapse;
+      }
+      th, td {
+        border: 3px solid #282265;
+        padding: 8px;
+        text-align: center;
+      }
+      th {
+        background-color: #f2f2f2;
+      }
+
+    .header-info {
+        text-align: center;
+        width: 750px;
+        height: 250px;
+        /* border: 1px solid red; */
+
+    }
+
+
+    .header-info a {
+        display: block;
+        width: 90px;
+        margin-top: 2rem;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: #282265;
+        color: white;
+        padding: 0.5rem 1rem;
+        text-decoration: none;
+        border-radius: 10px;
+    }
+
+    .header-info a:hover {
+        background-color: #1d1849;
+    }
+
+    footer {
+        background-color: #282265;
+        padding: 1rem;
+        text-align: center;
+        color: white;
+    }
+
+    footer p {
+        text-align: center;
+    }
+
+    .rail {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px; 
+    }
+    .rail-info {
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #cecece; 
+        padding: 20px;
+        background-color: #f2f2f2;
+        
+    }
+
+    .rail-info a {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 70px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        text-decoration: none;
+        background-color: #282265;
+        color: #fff;
+        padding: 5px 10px;
+        border-radius: 10px;
+    }
+    .rail-info a:hover {
+        background-color: #1d1849;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .img-map {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto;
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .img-map img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px;
+    }
+
+    .img-mrt {
+        width: 100%; /* Adjusted width to fit within the container */
+        max-width: 900px; /* Added max-width for responsiveness */
+        margin: 50px auto; /* Centering the image and adding space around it */
+        padding: 20px; /* Reduced padding for a more balanced look */
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Adding a subtle shadow effect */
+        border-radius: 10px; /* Rounded corners for aesthetics */
+        overflow: hidden; /* Ensuring the image doesn't overflow its container */
+    }
+
+    .img-mrt img {
+        width: 100%; /* Ensuring the image fills its container */
+        height: auto; /* Maintaining aspect ratio */
+        display: block; /* Removing any default image spacing */
+    }
+
+    .img-bts {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto; /* Centering the image horizontally */
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .img-bts img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px; 
+    }
+
+    .img-sup {
+        width: 100%;
+        max-width: 900px;
+        margin: 0 auto; /* Centering the image horizontally */
+        padding: 20px;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+    .img-sup img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 10px; 
+    }
+
+    form {
+        margin-top: 40px;
+        text-align: center;
+    }
+
+    form label {
+        display: block;
+        margin-bottom: 15px;
+        font-weight: bold;
+        font-size: 18px;
+        color: #333; /* Darker text color */
+    }
+
+    form select {
+        padding: 12px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        width: 100%;
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+
+    form input[type="submit"] {
+        padding: 10px 20px;
+        background-color: #282265;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+    }
+
+    form input[type="submit"]:hover {
+        background-color: #1d1849;
+    }
+
+    @media (max-width: 600px) {
+        /* CSS for screens below or equal to 600px wide */
+        .title {
+            width: auto; /* Allow title to expand */
+        }
+
+        ul {
+            justify-content: space-around; /* Center items */
+            flex-grow: 1; /* Allow items to take up remaining space */
+        }
+    }
